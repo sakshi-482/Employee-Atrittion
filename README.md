@@ -11,8 +11,8 @@ The objective of the present report is to study factors like salary, satisfactor
 1.	Employee attrition increases costs of recruitment, hiring and training replacement in the industries. 
 2.	Employee attrition reduces production, and profit in the industries. 
 
-## Approach
-Logistic Regression
+**Approach:**
+1. Logistic Regression
 2. SVM
 3. Naïve Bayes
 4. K nearest neighbours
