@@ -12,12 +12,12 @@ The objective of the present report is to study factors like salary, satisfactor
 2.	Employee attrition reduces production, and profit in the industries. 
 
 ## Approach
-* Decision Tree Modeling: I have used Decision tree to create model. The major hurdle was we had 1223 unlabelled (No in Attrition) and 237 labelled (Yes in Attrition), which is a highly imbalanced data. So I used stratified sampling based on proportion of attrition in overall data.
-
-### Repository Contains
-* Model Evaluation: I have used the k fold cross validation technique for assessing how the results of a model will generalize to an independent test data set.  I used k =5 i.e.. 5 fold cross validation. Model was fit on the stratified sample data and tested on unmarked dataset.
-
-* ROC Curve: The ROC curve is a simple plot that shows the trade-off between the true positive rate and the false positive rate of a classifier for various choices of the probability threshold. ROC area = 0.6128 and F1 = 0.81
+Logistic Regression
+2. SVM
+3. Naïve Bayes
+4. K nearest neighbours
+I tested the results produced using various combinations of number of dimensions and the above
+mentioned techniques. The best accuracy was obtained with SVM and 29 dimensions.
 
 ## Suggested Action
 * Improving the work conditions
@@ -27,7 +27,9 @@ The objective of the present report is to study factors like salary, satisfactor
 * Employee Engagement
   * When you have talented employee’s we need to find ways that you can help expand the employee’s skill set, so that their involvement in the job increases. If their involvement is low, they will get bored and think that they are not growing within the organization
 
-
+## Results and Learning
+Highest accuracy I could achieve was 90.90%.
+Learning for me included from very basics of python as well because of no previous programming background. I learnt using pandas dataframes, and training models and predicting variables with them. Got to know about how much capabilities and ease do the libraries like scikitlearn provide us.
 
 ## Repository Contains
  - Data Folder -- Contains Raw Data Files (Data can be downloaded from [kaggle](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset))
