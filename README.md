@@ -16,6 +16,7 @@ The objective of the present report is to study factors like salary, satisfactor
 2. SVM
 3. Naïve Bayes
 4. K nearest neighbours
+
 I tested the results produced using various combinations of number of dimensions and the above
 mentioned techniques. The best accuracy was obtained with SVM and 29 dimensions.
 
